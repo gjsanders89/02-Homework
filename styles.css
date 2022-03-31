@@ -15,7 +15,7 @@
         Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
         background-color: var(--mainbg);
         color: var(--maintext);
-        width: 95%;
+        width: 50%;
     }
 
     h1 {
@@ -24,6 +24,7 @@
     }
 
     header {
+        position: absolute;
         background-color: var(--mid);
         color: var(--maintext);
         width: 100%;
@@ -48,7 +49,7 @@
     }
 
     p {
-
+        width: 85%;
     }
 
     footer {
@@ -62,7 +63,16 @@
         background-color: var(--mid);
         display: flex;
         justify-content: left;
-        width: 10%;
+        width: 100px;
+        height: 100%;
+        align-items: baseline;
+        padding: 20px;
+    }
+
+    .about-me {
+        display: inline-block;
+        width: 85%;
+        justify-content: flex-end;
     }
 
     .top {
@@ -71,9 +81,18 @@
 
     .mid {
         display: block;
+        width: 80%;
     }
 
-    .ind-box {
+    .big-pic {
+        display: flex;
+        flex: 1;
+        border-color: #7ec1ff;
+        border-width: 3px;
+        width: 100%;
+    }
+
+    .box {
         display: block;
         width: 26%;
     }
